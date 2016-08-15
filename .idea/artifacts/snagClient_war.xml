@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="snagClient:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Snag.war">
+      <element id="artifact" artifact-name="snagClient:war exploded" />
+    </root>
+  </artifact>
+</component>
