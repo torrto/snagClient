@@ -1,5 +1,7 @@
 package com.springapp.mvc.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import java.util.List;
 
 /**
@@ -7,9 +9,38 @@ import java.util.List;
  */
 public class ContentWrapper {
 
-    private User user;
-
+    @Autowired
+    private User user = new User();
+    @Autowired
     private List<Questions> questions;
+
+    private String username;
+    private String email;
+    private int phone;
+
+    public String getUsername() {
+        return user.getUsername();
+    }
+
+    public void setUsername(String username) {
+        user.setUsername(username);
+    }
+
+    public String getEmail() {
+        return user.getEmail();
+    }
+
+    public void setEmail(String email) {
+        user.setEmail(email);
+    }
+
+    public int getPhone() {
+        return user.getPhone();
+    }
+
+    public void setPhone(int phone) {
+        user.setPhone(phone);
+    }
 
     public User getUser() {
         return user;

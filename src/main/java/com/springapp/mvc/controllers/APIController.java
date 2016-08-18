@@ -2,6 +2,7 @@ package com.springapp.mvc.controllers;
 
 
 import com.springapp.mvc.model.ContentWrapper;
+import com.springapp.mvc.model.Questions;
 import com.springapp.mvc.model.User;
 import com.springapp.mvc.service.QuestionsService;
 import com.springapp.mvc.service.QuestionsServiceImpl;
@@ -17,19 +18,14 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping("/submitForm")
 public class APIController {
 
-	@Autowired
-	private UserService userService;
-	@Autowired
-	private QuestionsService questionsService;
-
-	private String answer;
 
 	@RequestMapping(method = RequestMethod.POST, produces = "application/json")
-	public void submitApplication(@ModelAttribute User user) {
+	public void submitApplication(@ModelAttribute ContentWrapper wrapper) {
 		RestTemplate rest = new RestTemplate();
 		String url = "http://localhost:8080/";
 		System.out.println("trying..................");
-		rest.postForObject(url, user, User.class);
+		System.out.println(wrapper.getUser().getUsername());
+		rest.postForObject(url, wrapper, ContentWrapper.class);
 		System.out.println("try again");
 	}
 

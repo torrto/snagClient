@@ -13,7 +13,7 @@
 	<%--<p>Question 1: Are you 18 or older? <input type="text" name="question1"/></p>--%>
 	<%--<p>Question 2: Can you program? <input type="text" name="question2"/></p>--%>
 	<%--<p>Question 3: Do you live in the US? <input type="text" name="question3"/></p>--%>
-	<br>
+	<%--<br>--%>
 	<p><input value="Login" type="submit"></p>
 	<br>
 </form>

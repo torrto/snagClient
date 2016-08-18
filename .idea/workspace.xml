@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cdbba2d-477b-4194-a8af-8f3629ba8ab0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controllers/APIController.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controllers/APIController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/snagClient/WEB-INF/classes/com/springapp/mvc/controllers/APIController.class" afterPath="$PROJECT_DIR$/target/snagClient/WEB-INF/classes/com/springapp/mvc/controllers/APIController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Snag.war" afterPath="$PROJECT_DIR$/target/Snag.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/APIController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/APIController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/ContentWrapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/ContentWrapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/application.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/application.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/snagClient/WEB-INF/pages/application.jsp" afterPath="$PROJECT_DIR$/target/snagClient/WEB-INF/pages/application.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/snagClient.iml" afterPath="$PROJECT_DIR$/snagClient.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/snagClient_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/snagClient_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="snagClient.iws" />
@@ -46,7 +39,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="480">
               <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#670#671#0" expanded="false" />
+                <element signature="e#727#728#0" expanded="false" />
+                <element signature="e#793#794#0" expanded="false" />
+                <element signature="e#857#858#0" expanded="false" />
+                <element signature="e#894#895#0" expanded="false" />
+                <element signature="e#938#939#0" expanded="false" />
+                <element signature="e#986#987#0" expanded="false" />
+                <element signature="e#1053#1054#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,8 +57,18 @@
       <file leaf-file-name="application.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/application.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="360">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -64,9 +77,33 @@
       <file leaf-file-name="APIController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/APIController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="690">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContentWrapper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/ContentWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6076759" vertical-offset="330" max-vertical-offset="870">
+              <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,12 +121,10 @@
       <file leaf-file-name="ApplicationFormController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/ApplicationFormController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,11 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7761194" vertical-offset="1481" max-vertical-offset="2400">
-              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2400">
+              <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -139,9 +174,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/HelloController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/AbstractDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/ApplicationFormController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/APIController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/application.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/application.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/APIController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/ContentWrapper.java" />
       </list>
     </option>
   </component>
@@ -799,12 +835,12 @@
       <option name="number" value="Default" />
       <updated>1471285905227</updated>
       <workItem from="1471285909340" duration="3676000" />
-      <workItem from="1471469980748" duration="706000" />
+      <workItem from="1471469980748" duration="5494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4382000" />
+    <option name="totallyTimeSpent" value="9170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
@@ -872,7 +908,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="480">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#670#671#0" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
+            <element signature="e#793#794#0" expanded="false" />
+            <element signature="e#857#858#0" expanded="false" />
+            <element signature="e#894#895#0" expanded="false" />
+            <element signature="e#938#939#0" expanded="false" />
+            <element signature="e#986#987#0" expanded="false" />
+            <element signature="e#1053#1054#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -906,8 +952,6 @@
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -956,18 +1000,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/ApplicationFormController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#670#671#0" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
+            <element signature="e#793#794#0" expanded="false" />
+            <element signature="e#857#858#0" expanded="false" />
+            <element signature="e#894#895#0" expanded="false" />
+            <element signature="e#938#939#0" expanded="false" />
+            <element signature="e#986#987#0" expanded="false" />
+            <element signature="e#1053#1054#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -980,27 +1022,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2400">
+          <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/application.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="360">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/ApplicationFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/APIController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="690">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/ContentWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7761194" vertical-offset="1481" max-vertical-offset="2400">
-          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.6076759" vertical-offset="330" max-vertical-offset="870">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
