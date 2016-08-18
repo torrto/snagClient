@@ -8,8 +8,11 @@ import com.springapp.mvc.service.QuestionsService;
 import com.springapp.mvc.service.QuestionsServiceImpl;
 import com.springapp.mvc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
+
+import javax.validation.Valid;
 
 //this is a rest api that needs to accept json input which will have user info, question, and the answer. Needs
 // to be able to verify if the applicant passes min qualifications or not.
