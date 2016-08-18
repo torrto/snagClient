@@ -1,6 +1,9 @@
 package com.springapp.mvc.controllers;
 
+import com.springapp.mvc.model.ContentWrapper;
+import com.springapp.mvc.model.Questions;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -11,7 +14,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ApplicationFormController {
 
     @RequestMapping()
-    public String getApplicationForm() {
+    public String getApplicationForm(Model model) {
+        ContentWrapper wrapper = new ContentWrapper();
+            wrapper.add(new Questions());
+            wrapper.add(new Questions());
+            model.addAttribute("wrapper", wrapper);
         return "application";
     }
 

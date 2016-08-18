@@ -1,19 +1,24 @@
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
 	<title>Project Bark</title>
 </head>
 <body style="text-align: center">
-<form action="/submitForm" method="post">
-	<p>Name: <input type="text" name="username" value=""/></p>
-	<p>Email: <input type="text" name="email"/></p>
-	<p>Phone: <input type="text" name="phone"/></p>
-	<%--<p>Questions</p>--%>
-	<%--<p>Question 1: Are you 18 or older? <input type="text" name="question1"/></p>--%>
-	<%--<p>Question 2: Can you program? <input type="text" name="question2"/></p>--%>
-	<%--<p>Question 3: Do you live in the US? <input type="text" name="question3"/></p>--%>
-	<%--<br>--%>
-	<p><input value="Login" type="submit"></p>
-	<br>
-</form>
+<form:form id="wrap" action="/submitForm" method="POST" modelAttribute="wrapper">
+
+	<p>Name: <form:input type="text" path="username" value=""/></p>
+	<p>Email: <form:input type="text" path="email"/></p>
+	<p>Phone: <form:input type="text" path="phone"/></p>
+	<p>Questions</p>
+
+	<c:forEach items="${wrapper.questions}" varStatus="i">
+		<form:input path="questions[${i.index}].answer" type="text"/>
+	</c:forEach>
+
+
+	<button>submit</button>
+</form:form>
+
+</body>

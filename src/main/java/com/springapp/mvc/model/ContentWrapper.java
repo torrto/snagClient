@@ -2,6 +2,7 @@ package com.springapp.mvc.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,6 +14,15 @@ public class ContentWrapper {
     private User user = new User();
     @Autowired
     private List<Questions> questions;
+
+    public ContentWrapper(){
+        this.questions = new ArrayList<Questions>();
+    }
+
+
+    public void add(Questions question) {
+        this.questions.add(question);
+    }
 
     private String username;
     private String email;
