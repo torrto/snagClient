@@ -33,11 +33,10 @@ public class ApplicationFormController {
         }
 //        List<String> questionText = new ArrayList<String>();
         for (int i = 0; i < questionListSize; i++) {
-            System.out.println(questionsService.getAllQuestions().get(i).getQuestion());
+//            System.out.println(questionsService.getAllQuestions().get(i).getQuestion());
 //            String question = questionsService.getQuestions().get(i);
             wrapper.add(new Questions());
 //            wrapper.getQuestions().get(i).setQuestion(question);
-            wrapper.add(new Questions());
         }
 //            model.addAttribute("questionText", questionText);
             model.addAttribute("wrapper", wrapper);
