@@ -14,6 +14,7 @@
 	<p>Questions</p>
 
 	<c:forEach items="${wrapper.questions}" varStatus="i">
+		<c:out value="${wrapper.questions[i.index].question}"/>
 		<form:input path="questions[${i.index}].answer" type="text"/>
 	</c:forEach>
 

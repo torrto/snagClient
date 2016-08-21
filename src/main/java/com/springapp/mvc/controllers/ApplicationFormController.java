@@ -31,14 +31,13 @@ public class ApplicationFormController {
         } catch (Exception e){
             System.out.println("Boo Boo " + e);
         }
-//        List<String> questionText = new ArrayList<String>();
         for (int i = 0; i < questionListSize; i++) {
-//            System.out.println(questionsService.getAllQuestions().get(i).getQuestion());
-//            String question = questionsService.getQuestions().get(i);
+            System.out.println(questionsService.getAllQuestions().get(i).getQuestion());
+            String question = questionsService.getAllQuestions().get(i).getQuestion();
             wrapper.add(new Questions());
-//            wrapper.getQuestions().get(i).setQuestion(question);
+            wrapper.getQuestions().get(i).setQuestion(question);
+            System.out.println("WORK!!!! " + wrapper.getQuestions().get(i).getQuestion());
         }
-//            model.addAttribute("questionText", questionText);
             model.addAttribute("wrapper", wrapper);
         return "application";
     }
