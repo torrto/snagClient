@@ -14,12 +14,15 @@
 	<p>Questions</p>
 
 	<c:forEach items="${wrapper.questions}" varStatus="i">
+		<div class="col-sm-8">
 		<c:out value="${wrapper.questions[i.index].question}"/>
 		<form:input path="questions[${i.index}].answer" type="text"/>
+		</div>
 	</c:forEach>
-
-
-	<button>submit</button>
+	<br>
+	<div class="col-sm-5 button">
+		<button>submit</button>
+	</div>
 </form:form>
 
 </body>
