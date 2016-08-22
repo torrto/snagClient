@@ -5,11 +5,19 @@ import org.hibernate.Criteria;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 /**
  * Created by rhy704 on 8/14/16.
  */
 @Repository("questionsDao")
 public class QuestionsDaoImpl extends AbstractDao<Integer, Questions> implements QuestionsDao {
+
+    public List<Questions> getAllQuestions() {
+        Criteria criteria = createEntityCriteria();
+        List<Questions> all = (List<Questions>) criteria.list();
+        return all;
+    }
 
 
     public void saveQuestions(Questions questions) {

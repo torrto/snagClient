@@ -7,18 +7,22 @@
 </head>
 <body style="text-align: center">
 <form:form id="wrap" action="/submitForm" method="POST" modelAttribute="wrapper">
-
+	<h3>Applicant Info</h3>
 	<p>Name: <form:input type="text" path="username" value=""/></p>
 	<p>Email: <form:input type="text" path="email"/></p>
 	<p>Phone: <form:input type="text" path="phone"/></p>
-	<p>Questions</p>
+	<h3>Questions</h3> <h6 style="color:red">please enter a 'yes' or a 'no'</h6>
 
 	<c:forEach items="${wrapper.questions}" varStatus="i">
+		<div class="col-sm-8">
+		<c:out value="${wrapper.questions[i.index].question}"/>
 		<form:input path="questions[${i.index}].answer" type="text"/>
+		</div>
 	</c:forEach>
-
-
-	<button>submit</button>
+	<br>
+	<div class="col-sm-5 button">
+		<button>submit</button>
+	</div>
 </form:form>
 
 </body>
