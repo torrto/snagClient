@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cdbba2d-477b-4194-a8af-8f3629ba8ab0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/configuration/SecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/configuration/SecurityWebInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/APIController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/APIController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/ApplicationFormController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/ApplicationFormController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/QuestionsDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/QuestionsDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/QuestionsDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/QuestionsDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/QuestionsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/QuestionsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/QuestionsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/QuestionsServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/application.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/application.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/snagClient.iml" afterPath="$PROJECT_DIR$/snagClient.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/snagClient_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/snagClient_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="snagClient.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +32,8 @@
       <file leaf-file-name="application.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/application.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5" vertical-offset="60" max-vertical-offset="555">
-              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="64" />
+            <state vertical-scroll-proportion="-2.4" vertical-offset="135" max-vertical-offset="555">
+              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -102,31 +89,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContentWrapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/ContentWrapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="540">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25" vertical-offset="150" max-vertical-offset="660">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.47619048" vertical-offset="265" max-vertical-offset="810">
+              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuestionsServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuestionsServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/QuestionsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63829786" vertical-offset="0" max-vertical-offset="495">
-              <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding>
                 <element signature="e#930#931#0" expanded="true" />
                 <element signature="e#974#975#0" expanded="true" />
@@ -135,14 +112,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationFormController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/ApplicationFormController.java">
+      <file leaf-file-name="SecurityWebInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/configuration/SecurityWebInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="445" max-vertical-offset="990">
-              <caret line="44" column="35" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/configuration/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+              <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,15 +156,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Questions.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/application.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/configuration/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/ApplicationFormController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/APIController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/QuestionsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/QuestionsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/QuestionsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/QuestionsDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/application.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp" />
       </list>
     </option>
   </component>
@@ -539,6 +524,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJSP" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -905,16 +891,16 @@
       <workItem from="1471469980748" duration="7755000" />
       <workItem from="1471531216563" duration="6620000" />
       <workItem from="1471730634341" duration="29553000" />
-      <workItem from="1471969787853" duration="10805000" />
+      <workItem from="1471969787853" duration="13104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58409000" />
+    <option name="totallyTimeSpent" value="60708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1440" height="813" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -941,7 +927,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33064517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33064517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1044,18 +1030,18 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="600">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#639#640#0" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#711#712#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#781#782#0" expanded="false" />
+            <element signature="e#815#816#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
+            <element signature="e#875#876#0" expanded="false" />
+            <element signature="e#917#918#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1281,26 +1267,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/configuration/SecurityWebInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/configuration/HibernateConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="855">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/configuration/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="660">
-          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -1328,22 +1298,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/application.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="60" max-vertical-offset="555">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="150" max-vertical-offset="660">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,12 +1343,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/QuestionsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63829786" vertical-offset="0" max-vertical-offset="495">
-          <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
             <element signature="e#930#931#0" expanded="true" />
             <element signature="e#974#975#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/configuration/SecurityWebInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/configuration/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/application.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4" vertical-offset="135" max-vertical-offset="555">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47619048" vertical-offset="265" max-vertical-offset="810">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
