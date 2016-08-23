@@ -26,6 +26,10 @@ public class QuestionsServiceImpl implements QuestionsService {
         dao.saveQuestions(questions);
     }
 
+    public void editQuestion(String id, String question) { dao.editQuestion(id, question); }
+
+    public void editAnswer(String id, String answer) { dao.editAnswer(id, answer); }
+
     public String getAnswerById(String id) {
         return dao.getAnswerById(id);
     }

@@ -13,6 +13,10 @@ public interface QuestionsService {
 
     void saveQuestions(Questions questions);
 
+    void editQuestion(String id, String question);
+
+    void editAnswer(String id, String answer);
+
     String getAnswerById(String id);
 
 }

@@ -3,7 +3,7 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
-	<title>Project Bark</title>
+	<title>Snag</title>
 
 	<script src="applicationJS.js"></script>
 
