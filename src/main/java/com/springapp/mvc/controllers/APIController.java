@@ -25,15 +25,18 @@ public class APIController {
 
 	@Autowired
 	private QuestionsService questionsService;
+
+
 	private final String url = "http://localhost:8080/";
+
 
 	@ResponseBody
 	@RequestMapping(method = RequestMethod.POST, produces = "application/json")
 	public ResponseEntity<ContentWrapper> submitApplication(@ModelAttribute ContentWrapper wrapper) {
 
 		for(int i = 0; i < questionsService.getAllQuestions().size(); i++){
-			System.out.println(questionsService.getAllQuestions().get(i).getQuestion());
 			wrapper.getQuestions().get(i).setQuestion(questionsService.getAllQuestions().get(i).getQuestion());
+			wrapper.getQuestions().get(i).setId(questionsService.getAllQuestions().get(i).getId());
 		}
 		RestTemplate rest = new RestTemplate();
 		rest.postForObject(url, wrapper, ContentWrapper.class);

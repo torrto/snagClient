@@ -19,14 +19,9 @@ public class QuestionsDaoImpl extends AbstractDao<Integer, Questions> implements
         return all;
     }
 
-
     public void saveQuestions(Questions questions) {
         persist(questions);
     }
-
-//    public Questions getQuestionbyId(int id) {
-//        return getById(id);
-//    }
 
     public String getAnswerById(String id) {
         Criteria criteria = createEntityCriteria();
