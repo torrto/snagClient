@@ -19,24 +19,20 @@ import java.util.List;
 public class ApplicationFormController {
 
     @Autowired
-    QuestionsService questionsService;
+    private QuestionsService questionsService;
+
+    private ContentWrapper wrapper;
+    private int questionListSize;
+    private String question;
 
     @RequestMapping()
     public String getApplicationForm(Model model) {
-        ContentWrapper wrapper = new ContentWrapper();
-        int questionListSize = 0;
-        try{
-            questionListSize = questionsService.getAllQuestions().size();
-            System.out.println("size of list: " + questionListSize);
-        } catch (Exception e){
-            System.out.println("Boo Boo " + e);
-        }
+        wrapper = new ContentWrapper();
+        questionListSize = questionsService.getAllQuestions().size();
         for (int i = 0; i < questionListSize; i++) {
-            System.out.println(questionsService.getAllQuestions().get(i).getQuestion());
-            String question = questionsService.getAllQuestions().get(i).getQuestion();
+            question = questionsService.getAllQuestions().get(i).getQuestion();
             wrapper.add(new Questions());
             wrapper.getQuestions().get(i).setQuestion(question);
-            System.out.println("WORK!!!! " + wrapper.getQuestions().get(i).getQuestion());
         }
             model.addAttribute("wrapper", wrapper);
         return "application";
