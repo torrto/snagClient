@@ -11,19 +11,10 @@ public class Questions {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int unique;
-
     private String id;
+
     private String question;
     private String answer;
-
-    public int getUnique() {
-        return unique;
-    }
-
-    public void setUnique(int unique) {
-        this.unique = unique;
-    }
 
     public String getId() {
         return id;

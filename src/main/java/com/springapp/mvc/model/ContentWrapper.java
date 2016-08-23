@@ -11,45 +11,18 @@ import java.util.List;
 public class ContentWrapper {
 
     @Autowired
-    private User user = new User();
+    private User user;
     @Autowired
     private List<Questions> questions;
 
     public ContentWrapper(){
+        this.user = new User();
         this.questions = new ArrayList<Questions>();
     }
 
 
     public void add(Questions question) {
         this.questions.add(question);
-    }
-
-    private String username;
-    private String email;
-    private int phone;
-
-    public String getUsername() {
-        return user.getUsername();
-    }
-
-    public void setUsername(String username) {
-        user.setUsername(username);
-    }
-
-    public String getEmail() {
-        return user.getEmail();
-    }
-
-    public void setEmail(String email) {
-        user.setEmail(email);
-    }
-
-    public int getPhone() {
-        return user.getPhone();
-    }
-
-    public void setPhone(int phone) {
-        user.setPhone(phone);
     }
 
     public User getUser() {
