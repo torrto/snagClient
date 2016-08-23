@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cdbba2d-477b-4194-a8af-8f3629ba8ab0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/APIController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/APIController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Questions.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Questions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/QuestionsDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/QuestionsDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/QuestionsDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/QuestionsDaoImpl.java" />
-    </list>
+    <list default="true" id="3cdbba2d-477b-4194-a8af-8f3629ba8ab0" name="Default" comment="" />
     <ignored path="snagClient.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -787,12 +782,12 @@
       <workItem from="1471285909340" duration="3676000" />
       <workItem from="1471469980748" duration="7755000" />
       <workItem from="1471531216563" duration="6620000" />
-      <workItem from="1471730634341" duration="29472000" />
+      <workItem from="1471730634341" duration="29553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47523000" />
+    <option name="totallyTimeSpent" value="47604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="6" />
