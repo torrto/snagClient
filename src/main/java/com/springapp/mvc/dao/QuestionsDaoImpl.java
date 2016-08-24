@@ -23,6 +23,20 @@ public class QuestionsDaoImpl extends AbstractDao<Integer, Questions> implements
         persist(questions);
     }
 
+    public void editQuestion(String id, String question) {
+        Criteria criteria = createEntityCriteria();
+        criteria.add(Restrictions.eq("id", id));
+        Questions questions = (Questions) criteria.list().get(0);
+        questions.setQuestion(question);
+    }
+
+    public void editAnswer(String id, String answer) {
+        Criteria criteria = createEntityCriteria();
+        criteria.add(Restrictions.eq("id", id));
+        Questions questions = (Questions) criteria.list().get(0);
+        questions.setAnswer(answer);
+    }
+
     public String getAnswerById(String id) {
         Criteria criteria = createEntityCriteria();
         criteria.add(Restrictions.eq("id", id));
